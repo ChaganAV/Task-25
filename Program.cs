@@ -1,7 +1,7 @@
 ﻿int size = 2;
 int[] array = new int[size];
 
-Console.WriteLine("Введите два числа");
+Console.WriteLine($"Введите {size} числа");
 for(int i = 0; i < array.Length; i++)
 {
     array[i] = ReadInline(">>");
