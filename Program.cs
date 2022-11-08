@@ -15,12 +15,12 @@ int ReadInline(string message)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int PowerOfNumber(int[] array)
+int PowerOfNumber(int[] arr)
 {
-    int result = 0;
-    for(int i = 0; i < array.Length; i++)
+    int result = 1;
+    for(int i = 0; i < arr[1]; i++)
     {
-        result*=array[0];
+        result*=arr[0];
     }
     return result;
 }
